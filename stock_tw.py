@@ -1,9 +1,6 @@
 import requests
 import pandas as pd
 
-dates = [20200201, 20200101, 20191201]
-stockNo = 2330
-
 class Stock_tw():
     url_template = "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=html&date={}&stockNo={}" 
 
